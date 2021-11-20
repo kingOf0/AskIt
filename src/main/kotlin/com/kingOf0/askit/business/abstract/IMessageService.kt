@@ -1,8 +1,8 @@
 package com.kingOf0.askit.business.abstract
 
 import com.kingOf0.askit.entity.concrete.Message
-import com.kingOf0.hellospring.core.utilities.results.DataResult
-import com.kingOf0.hellospring.core.utilities.results.Result
+import com.kingOf0.askit.core.utilities.results.DataResult
+import com.kingOf0.askit.core.utilities.results.Result
 
 interface IMessageService {
 

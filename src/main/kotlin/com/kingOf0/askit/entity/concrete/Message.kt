@@ -1,5 +1,6 @@
 package com.kingOf0.askit.entity.concrete
 
+import java.sql.Timestamp
 import javax.persistence.*
 
 @Entity
@@ -14,8 +15,11 @@ class Message(
     val message: String,
 
     @Column(name = "date")
-    val date: Long,
+    val date: Timestamp,
 
     @Column(name = "is_verified")
-    val isVerified: Boolean
+    var isVerified: Boolean,
+
+    @Column(name = "reply")
+    val reply: String?
 )

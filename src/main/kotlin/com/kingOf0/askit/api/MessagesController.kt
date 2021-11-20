@@ -1,9 +1,9 @@
 package com.kingOf0.askit.api
 
 import com.kingOf0.askit.business.abstract.IMessageService
+import com.kingOf0.askit.core.utilities.results.DataResult
+import com.kingOf0.askit.core.utilities.results.Result
 import com.kingOf0.askit.entity.concrete.Message
-import com.kingOf0.hellospring.core.utilities.results.DataResult
-import com.kingOf0.hellospring.core.utilities.results.Result
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.*
 
